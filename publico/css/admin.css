@@ -1,0 +1,126 @@
+
+.container-admin-banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0px 20px;
+}
+
+.logo-admin{
+    width: 400px;
+    margin-top: 0px;
+    
+}
+
+h2{
+    font-size: 24px;
+}
+
+.container-table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table{
+    width: 90%;
+    margin: auto 0;
+}
+table, th, td{
+    border: 1px solid #EBC181;
+}
+
+table th{
+    padding: 11px 0 11px;
+    background-color: #BAA88D;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px;
+}
+
+table tr{
+    border: 1px solid #ddd;
+}
+
+table td{
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+}
+.container-admin-banner h1{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #BAA88D;
+}
+
+.container-lista-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.container-lista{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 0.5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px 0;
+}
+
+.container-lista h3{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+table tbody tr td a, .botao-cadastrar, .botao-excluir{
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.7s;
+    border: none;
+    font-size: 18px;
+}
+
+
+table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover{
+    cursor: pointer;
+    filter: saturate(150%);
+}
+
+.botao-cadastrar{
+    background: #BAA88D;
+    color: #333B1E;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+
+.botao-editar{
+    background: #9B8357;
+}
+
+.botao-excluir{
+    background: crimson;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+h1{
+    color: #BAA88D;
+}
